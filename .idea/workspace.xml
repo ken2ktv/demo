@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60df8241-6ca0-4f5d-a5c2-98e888a07909" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystem/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystem/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystem/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystem/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystemapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystemapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystemapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystemapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystemapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystemapp/static/IMG/Trade1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystemapp/static/IMG/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystemapp/templates/pages/ComingSoon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystemapp/templates/pages/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystemapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystemapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/feroxsystemapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/feroxsystem/feroxsystemapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystem/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystemapp/ComingSoon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystemapp/Home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystemapp/IMG/Trade1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystemapp/IMG/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystemapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystemapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystemapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystemapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystemapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystemapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystemapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feroxsystemapp/views.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pgr9A45ydvGCoRkvvXcWxCZadM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/feroxsystem/feroxsystemapp" />
+      <recent name="$PROJECT_DIR$/feroxsystem/feroxsystemapp/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/feroxsystem/feroxsystemapp/static" />
+      <recent name="$PROJECT_DIR$/feroxsystem/feroxsystemapp/templates/pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60df8241-6ca0-4f5d-a5c2-98e888a07909" name="Default Changelist" comment="" />
+      <created>1615615420463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615615420463</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ')5!9k=_k15^!dl!efd0xpd^i5@w9kdd1fk0d#4lxur%$e)1foh'
+SECRET_KEY = 'ws-9lvy3wsqh7v-%z2gx!%fzc5b22$&!##ubfp8rd(zyv9i6#m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'feroxsystemapp.apps.FeroxsystemappConfig',
+    'feroxsystemapp.apps.FeroxsystemappConfig'
 ]
 
 MIDDLEWARE = [
@@ -68,28 +68,19 @@ TEMPLATES = [
     },
 ]
 
-# STATIC_URL = '/IMG/'
-
 WSGI_APPLICATION = 'feroxsystem.wsgi.application'
 
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-"""
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-"""
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'mydatabase',
-    }
-}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
