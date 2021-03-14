@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
 
@@ -66,6 +67,7 @@
         <br />
         <div class="w3-container w3-row">
             <div class="w3-col s4">
+                <!--{% load static %} src="{% static 'IMG/avatar.png' %}" -->
                 <img src="IMG/avatar.png" class="w3-circle w3-margin-right" style="width: 46px" />
             </div>
             <div class="w3-col s8 w3-bar">
@@ -82,14 +84,12 @@
         <div class="w3-bar-block">
             <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black"
                 onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i>  Tài khoản
-                giao dịch</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i>  Tài khoản giao dịch</a>
             <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  Xem thông tin</a>
             <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Nạp tiền</a>
             <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-diamond fa-fw"></i>  Mua lệnh</a>
             <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bank fa-fw"></i>  Chuyển tiền</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  Lịch sử giao
-                dịch</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  Lịch sử giao dịch</a>
             <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i>  Cài đặt</a><br><br>
         </div><br><br><br>
         <hr>
@@ -165,8 +165,8 @@
                         </div>
                     </div>
                     <div class="w3-right">
-                        <h3><button class="w3-button w3-grey w3-round-large fas fa-plus"> MỞ TÀI KHOẢN MỚI</button>
-                            <button class="w3-button w3-grey w3-round-large fas fa-link"> THÊM TÀI KHOẢN</button>
+                        <h3><button class="w3-button w3-cyan w3-round-large fas fa-plus"> MỞ TÀI KHOẢN MỚI</button>
+                            <button class="w3-button w3-cyan w3-round-large fas fa-link"> THÊM TÀI KHOẢN</button>
                         </h3>
                         <div style="padding-left: 295px; padding-top: 10px;font-size: 20px;">Tìm :
                             <input type="text" placeholder="Search..">
@@ -175,7 +175,7 @@
                 </div>
                 <div class="w3-container"><br><br>
                     <table class="w3-table w3-striped w3-bordered">
-                        <thead style="font-size: 18px;">
+                        <thead style="font-size: 20px;">
                             <th>Số tài khoản</th>
                             <th>Loại</th>
                             <th>Đòn bẩy</th>
@@ -184,7 +184,7 @@
                             <th colspan="1">Hành Động</th>
                             <th></th>
                         </thead>
-                        <tr>
+                        <tr style="font-size: 17px;">
                             <td>ABC</td>
                             <td>USD</td>
                             <td>1234</td>
@@ -201,7 +201,7 @@
                                 <li><a href="#">Cài đặt</a></li>
                             </td>
                         </tr>
-                        <tr>
+                        <tr style="font-size: 17px;">
                             <td>ABC</td>
                             <td>USD</td>
                             <td>1234</td>
@@ -218,7 +218,7 @@
                                 <li><a href="#">Cài đặt</a></li>
                             </td>
                         </tr>
-                        <tr>
+                        <tr style="font-size: 17px;">
                             <td>ABC</td>
                             <td>USD</td>
                             <td>1234</td>
@@ -242,7 +242,7 @@
         </div>
 
         <!-- Footer-->
-        <footer class="w3-container w3-padding-16 w3-blue-grey">
+        <footer class="w3-container w3-padding-16 w3-2021-inkwell">
             <div class="w3-row-padding">
                 <div class="w3-third">
                     <h3>ĐIỀU KHOẢN VÀ ĐIỀU KIỆN</h3>

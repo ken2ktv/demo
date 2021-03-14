@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <!--link rel="stylesheet" href="styles.css" /-->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
 
@@ -18,7 +19,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a811b5afd0.js" crossorigin="anonymous"></script>
-    <title>Ferox Technologies</title>
+    <title>Frerox Technologies</title>
     <style>
         html,
         body,
@@ -27,7 +28,13 @@
         h3,
         h4,
         h5 {
-            font-family: "Raleway", sans-serif
+            font-family: "Raleway", sans-serif;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 84%;
         }
     </style>
 </head>
@@ -35,11 +42,24 @@
 <body class="w3-light-grey">
     <!-- Top Container -->
     <div class="w3-bar w3-top w3-black w3-large">
-        
         <span class="w3-bar-item">FEROX TECHNOLOGIES</span>
-        <button class="w3-bar-item w3-button w3-hover-none w3-hover-text-light-grey w3-right dropbtn" onclick="">
-            <i class="fa fa-bars"></i> Menu
+        <div class="custom-select w3-right" style="width:150px;">
+            <select name="lang" id="lang" class="w3-bar-item w3-hover-none w3-black ">
+                <option value="vn" style="color: darkgray;"><b> Tiếng Việt </b></option>
+                <option value="en" style="color: darkgray;"><b> English </b></option>
+            </select>
+        </div>
+
+        <button class="w3-bar-item w3-button w3-hover-none w3-hover-text-light-grey w3-right" onclick="myFunction()">
+            <i class="fa fa-comment-dots"></i> Ferox Blog
         </button>
+        <button class="w3-bar-item w3-button w3-hover-none w3-hover-text-light-grey w3-right" onclick="myFunction()">
+            <i class="fa fa-comments"></i> Hỗ Trợ Khách Hàng
+        </button>
+        <button class="w3-bar-item w3-button w3-hover-none w3-hover-text-light-grey w3-right" onclick="myFunction()">
+            <i class="fa fa-home"></i> Ferox Trang Chủ
+        </button>
+
     </div>
 
     <!-- Sidebar/ Menu -->
@@ -59,7 +79,7 @@
         </div>
         <hr>
         <div class="w3-container">
-            <h5>PHÒNG TRADER</h5>
+            <h4>PHÒNG TRADER</h4>
         </div>
         <div class="w3-bar-block">
             <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black"
@@ -93,7 +113,7 @@
     <div class="w3-main" style="margin-left:300px;margin-top:43px;">
         <!-- Header -->
         <header class="w3-container" style="padding-top:22px">
-            <h3><b><i class="fa fa-lock"></i> Khu vực khách hàng</b></h3>
+            <h3><b><i class="fa fa-lock"></i> Khu vực khách hàng</b></h3><br>
         </header>
         <div class="w3-row-padding w3-margin-bottom">
             <div class="w3-quarter">
@@ -130,7 +150,7 @@
             </div>
         </div>
         <div class="w3-right" style="padding-right: 50px;">
-            <h4>Hello</h4>
+            <h4>Hello <i class="fa fa-user"></i> <b>Mike,</b> <a href="#">logout.</a></h4>
         </div><br>
         <div class="w3-container">
             <div class="w3-panel w3-border">
@@ -143,29 +163,30 @@
                                 <option value="10">10</option>
                                 <option value="20">20</option>
                             </select>
-                            mục:
+                            mục :
                         </div>
                     </div>
                     <div class="w3-right">
-                        <h3><button class="w3-button w3-grey w3-round-large fas fa-plus"> MỞ TÀI KHOẢN MỚI</button>
-                            <button class="w3-button w3-grey w3-round-large fas fa-link"> THÊM TÀI KHOẢN</button>
+                        <h3><button class="w3-button w3-cyan w3-round-large fas fa-plus"> MỞ TÀI KHOẢN MỚI</button>
+                            <button class="w3-button w3-cyan w3-round-large fas fa-link"> THÊM TÀI KHOẢN</button>
                         </h3>
-                        <div style="padding-left: 295px; padding-top: 10px;font-size: 20px;">Tìm:
+                        <div style="padding-left: 295px; padding-top: 10px;font-size: 20px;">Tìm :
                             <input type="text" placeholder="Search..">
                         </div>
                     </div>
                 </div>
                 <div class="w3-container"><br><br>
-                    <table class="w3-table w3-striped w3-bordered" style="font-family:aria;">
-                        <thead style="font-size: 18px;">
+                    <table class="w3-table w3-striped w3-bordered" style="font-family: Arial, Helvetica, sans-serif;">
+                        <thead style="font-size: 20px;">
                             <th>Số tài khoản</th>
                             <th>Loại</th>
                             <th>Đòn bẩy</th>
                             <th>Balance</th>
                             <th>Equity</th>
                             <th colspan="1">Hành Động</th>
+                            <th></th>
                         </thead>
-                        <tr>
+                        <tr style="font-size: 17px;">
                             <td>ABC</td>
                             <td>USD</td>
                             <td>1234</td>
@@ -182,7 +203,7 @@
                                 <li><a href="#">Cài đặt</a></li>
                             </td>
                         </tr>
-                        <tr>
+                        <tr style="font-size: 17px;">
                             <td>ABC</td>
                             <td>USD</td>
                             <td>1234</td>
@@ -199,7 +220,7 @@
                                 <li><a href="#">Cài đặt</a></li>
                             </td>
                         </tr>
-                        <tr>
+                        <tr style="font-size: 17px;">
                             <td>ABC</td>
                             <td>USD</td>
                             <td>1234</td>
@@ -222,11 +243,22 @@
 
         </div>
 
-        <!-- Footer 
-  <footer class="w3-container w3-padding-16 w3-gray">
-    <h4>FEROX TECHNOLOGIES</h4>
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-  </footer>-->
+        <!-- Footer-->
+        <footer class="w3-container w3-padding-16 w3-2021-inkwell">
+            <div class="w3-row-padding">
+                <div class="w3-third">
+                    <h3>ĐIỀU KHOẢN VÀ ĐIỀU KIỆN</h3>
+                    <p>Hello</p>
+                </div>
+
+
+
+                <div class="w3-third w3-right">
+                    <h3>FEROX TECHNOLOGIES</h3>
+                    <p>Hello</p>
+                </div>
+            </div>
+        </footer>
 </body>
 
 </html>
